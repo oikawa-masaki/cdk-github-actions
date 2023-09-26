@@ -17,8 +17,8 @@ jobs:
         with:
           node-version: '10.x'
 
-      - name: Update NPM
-        run: npm install npm
+      # - name: Update NPM
+      #   run: npm install npm
 
       - name: Setup dependencies
         run: npm ci
